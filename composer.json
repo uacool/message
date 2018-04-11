@@ -1,0 +1,27 @@
+{
+    "name": "wxiaohan/message",
+	"description": "集合了企业微信，钉钉，SMS，Email的消息发送功能",
+	"type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wxh",
+            "email": "470413047@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5"
+    },
+	  "autoload": {
+        "psr-4": {
+            "Message\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    }
+}
